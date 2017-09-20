@@ -6,5 +6,10 @@ import {constAndLet} from './examples/constAndLet';
 
 constAndLet();
 
+
+import {arrowFunctions} from "./examples/arrowFunctions";
+
+arrowFunctions();
+
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
