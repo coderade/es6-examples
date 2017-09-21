@@ -2,14 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import {constAndLet} from './examples/constAndLet';
+import {
+    //constAndLet,
+    //arrowFunctions
+    // destructuring
+} from './examples'
 
-constAndLet();
+// destructuring();
 
-
-import {arrowFunctions} from "./examples/arrowFunctions";
-
-arrowFunctions();
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
 registerServiceWorker();
