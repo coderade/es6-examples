@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.19.0
+version: v1.21.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -854,6 +854,10 @@ patch:
         patched: '2020-12-11T11:21:35.657Z'
     - snyk > snyk-python-plugin > snyk-poetry-lockfile-parser > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-12-11T11:21:35.657Z'
+    - snyk > snyk-nodejs-lockfile-parser > @yarnpkg/core > lodash:
+        patched: '2021-07-28T15:48:06.499Z'
+    - snyk > snyk-docker-plugin > snyk-nodejs-lockfile-parser > @yarnpkg/core > lodash:
+        patched: '2021-07-28T15:48:06.499Z'
   'npm:debug:20170905':
     - react-scripts > babel-jest > @jest/transform > micromatch > snapdragon > debug:
         patched: '2020-08-13T00:13:33.950Z'
