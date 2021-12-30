@@ -1052,6 +1052,24 @@ patch:
         patched: '2021-10-19T23:34:05.139Z'
     - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > babel-preset-jest > babel-plugin-jest-hoist > @types/babel__core > @types/babel__template > @babel/types > lodash:
         patched: '2021-10-19T23:34:05.139Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-snapshot > @babel/types > lodash:
+        patched: '2021-12-30T15:04:47.059Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-snapshot > @babel/types > lodash:
+        patched: '2021-12-30T15:04:47.059Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2021-12-30T15:04:47.059Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2021-12-30T15:04:47.059Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2021-12-30T15:04:47.059Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2021-12-30T15:04:47.059Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-snapshot > @babel/types > lodash:
+        patched: '2021-12-30T15:04:47.059Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2021-12-30T15:04:47.059Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2021-12-30T15:04:47.059Z'
   'npm:debug:20170905':
     - react-scripts > babel-jest > @jest/transform > micromatch > snapdragon > debug:
         patched: '2020-08-13T00:13:33.950Z'
